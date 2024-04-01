@@ -21,3 +21,5 @@ Sklearn CountVectorizer là một phần của thư viện Python scikit-learn (
 
 ## Thực hành
 Sử dụng datasets spam.csv để áp dụng thuật toán vào phân loại email liệu rằng một email có là spam hay không
+## Exercise
+Use wine dataset from sklearn.datasets to classify wines into 3 categories. Load the dataset and split it into test and train. After that train the model using Gaussian and Multinominal classifier and post which model performs better. Use the trained model to perform some predictions on test data.
