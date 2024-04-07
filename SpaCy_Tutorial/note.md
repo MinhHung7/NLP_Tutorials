@@ -12,3 +12,6 @@ Sentence #1: Dr
 Sentence #2: Strange ordered samosas, revioli etc  
 Sentence #3: for his lunch  
 ***
+![image](https://github.com/MinhHung7/NLP_Tutorials/assets/118424791/d8d8997b-fb37-417c-a21b-3b61446792b1)
+
+
