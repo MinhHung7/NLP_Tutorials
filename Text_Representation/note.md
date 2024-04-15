@@ -19,4 +19,17 @@ Minh Hung sat on a **samosa** and ate a **sofa**
 ### Limitations of bag of n-grams model
 - Nếu n tăng thì số chiều và độ loãng của model sẽ tăng
 - Không thể giải quyết vấn đề vượt quá từ vựng (out of vocalbulary)
-- 
+## TF_IDF
+- Trong một đoạn văn bản ngoài các keywords dùng để phân loại chúng thì các từ chung chung khác (hay từ nhiễu) xuất hiện rất nhiều lần.
+- Giả sử có article khác nhau nhưng số lượng từ nhiễu này của 2 đoạn văn bản lại có số lần xuất hiện khá tương tự nhau. Điều này làm cho máy tính nghĩ rằng 2 đoạn văn bản này như nhau.
+### Chỉ số ảnh hưởng
+- Sử dụng chỉ số ảnh hưởng để chỉ rõ mức độ ảnh hưởng của các từ nhiễu và keywords
+***
+**Document Frequency (DF)** = Number of times term t is present in all docs
+***
+![image](https://github.com/MinhHung7/NLP_Tutorials/assets/118424791/50b72eea-1e55-4ade-9454-7349532593dd)
+***
+**TF(t, d)** = Total Number of time term t is present in doc A / Total number of tokens in doc A  
+**IDF(t)** = log(Total Documents / Number of documents term t is present in all docs)  
+**TF - IDF** = TF(t, d) * IDF(t)
+***
